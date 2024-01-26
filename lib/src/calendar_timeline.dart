@@ -314,7 +314,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         if (widget.showYears) _buildYearList(),
-        // _buildMonthList(),
+        _buildMonthList(),
         _buildDayList(),
       ],
     );

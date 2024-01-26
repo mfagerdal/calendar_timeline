@@ -65,7 +65,7 @@ class DayItem extends StatelessWidget {
             ] else
               SizedBox(height: shrink ? 10 : 14),
             Text(
-              dayNumber.toString(),
+              '1', //dayNumber.toString(),
               style: isSelected ? selectedStyle : textStyle,
             ),
             if (isSelected)
